@@ -24,8 +24,9 @@ public class App {
 
         System.out.println("Permain Stuff");
         //git statusThread.sleep(100);
-        System.out.println("Permain Stuff");
+        System.out.println("Exiting");
         System.exit(0);
+        System.out.println("Buha");
         PrintStream out = null;
         try {
             out = new PrintStream("system.out");
