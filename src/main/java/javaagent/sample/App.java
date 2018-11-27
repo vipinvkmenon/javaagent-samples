@@ -22,6 +22,10 @@ public class App {
 
     public static void premain(String agentOps, Instrumentation inst) {
 
+        System.out.println("Permain Stuff");
+        //git statusThread.sleep(100);
+        System.out.println("Permain Stuff");
+        System.exit(0);
         PrintStream out = null;
         try {
             out = new PrintStream("system.out");
